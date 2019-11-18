@@ -1,0 +1,245 @@
+table of contents@5
+chapter 0: how to use this book@11
+    - what this book is about@12
+    - preparation plans@13
+    - summary@16
+chapter 1: introduction - programming overview@17
+    - introduction@18
+    - first go program@19
+    - variables & constants@20
+    - basic data types@21
+    - string@23
+    - conditions and loops@24
+    - function@29
+    - parameter passing, call by value@30
+    - pointers@31
+    - parameter passing, call by pointer / reference@32
+    - structures@33
+    - methods@34
+    - interface@36
+    - array@38
+    - slice@39
+    - map / dictionary@41
+    - array interview questions@42
+    - concept of stack@45
+    - system stack and method calls@46
+    - recursive function@48
+    - exercises@52
+chapter 2: algorithms analysis@54
+    - introduction@55
+    - algorithm@56
+    - asymptotic analysis@57
+    - big-o notation@58
+    - omega-Ω notation@59
+    - theta-Θ notation@60
+    - complexity analysis of algorithms@61
+    - time complexity order@62
+    - deriving the runtime function of an algorithm@64
+    - time complexity examples@65
+    - master theorem@70
+    - modified master theorem@72
+    - exercise@74
+chapter 3: approach to solve algorithm design problems@75
+    - introduction@76
+    - constraints@77
+    - idea generation@78
+    - complexities@80
+    - coding@81
+    - testing@82
+    - example@83
+    - summary@84
+chapter 4: abstract data type & go collections@85
+    - abstract data type (adt)@86
+    - data-structure@87
+    - go collection framework@88
+    - stack@89
+    - queue@91
+    - tree@92
+    - binary tree@93
+    - binary search trees (bst)@94
+    - priority queue (heap)@95
+    - hash-table@96
+    - dictionary / symbol table@100
+    - graphs@103
+    - graph algorithms@104
+    - sorting algorithms@105
+    - counting sort@106
+    - end note@107
+chapter 5: searching@108
+    - introduction@109
+    - why searching?@110
+    - different searching algorithms@111
+    - linear search – unsorted input@112
+    - linear search – sorted@113
+    - binary search@114
+    - string searching algorithms@116
+    - hashing and symbol tables@117
+    - how sorting is useful in selection algorithm?@118
+    - problems in searching@119
+    - exercise@141
+chapter 6: sorting@142
+    - introduction@143
+    - type of sorting@144
+    - bubble-sort@145
+    - modified (improved) bubble-sort@147
+    - insertion-sort@148
+    - selection-sort@150
+    - merge-sort@152
+    - quick-sort@154
+    - quick select@156
+    - bucket sort@157
+    - generalized bucket sort@159
+    - heap-sort@160
+    - tree sorting@161
+    - external sort (external merge-sort)@162
+    - comparisons of the various sorting algorithms.@163
+    - selection of best sorting algorithm@164
+    - exercise@165
+chapter 7: linked list@167
+    - introduction@168
+    - linked list@169
+    - types of linked list@170
+    - singly linked list@171
+    - doubly linked list@188
+    - circular linked list@197
+    - doubly circular list@203
+    - exercise@207
+chapter 8: stack@208
+    - introduction@209
+    - the stack abstract data type@210
+    - stack using slices@211
+    - stack generic implementation@213
+    - stack using linked list@214
+    - problems in stack@216
+    - uses of stack@224
+    - exercise@225
+chapter 9: queue@226
+    - introduction@227
+    - the queue abstract data type@228
+    - queue using list@229
+    - queue using linked list@231
+    - problems in queue@234
+    - exercise@237
+chapter 10: tree@238
+    - introduction@239
+    - terminology in tree@240
+    - binary tree@241
+    - types of binary trees@243
+    - problems in binary tree@246
+    - binary search tree (bst)@260
+    - problems in binary search tree (bst)@261
+    - segment tree@272
+    - avl trees@274
+    - red-black tree@276
+    - splay tree@277
+    - b-tree@278
+    - b+tree@281
+    - b*tree@282
+    - exercise@283
+chapter 11: priority queue@286
+    - introduction@287
+    - types of heap@289
+    - heap adt operations@291
+    - operation on heap@292
+    - heap-sort@300
+    - uses of heap@306
+    - problems in heap@307
+    - priority queue generic implementation.@311
+    - priority queue using heap from container.@314
+    - exercise@316
+chapter 12: hash-table@317
+    - introduction@318
+    - hash-table@319
+    - hashing with open addressing@321
+    - hashing with separate chaining@325
+    - problems in hashing@328
+    - exercise@330
+chapter 13: graphs@332
+    - introduction@333
+    - graph representation@336
+    - adjacency matrix@337
+    - adjacency list@338
+    - graph traversals@340
+    - depth first traversal@341
+    - breadth first traversal@343
+    - problems in graph@345
+    - directed acyclic graph@346
+    - topological sort@347
+    - minimum spanning trees (mst)@348
+    - shortest path algorithms in graph@351
+    - exercise@355
+chapter 14: string algorithms@356
+    - introduction@357
+    - string matching@358
+    - dictionary / symbol table@362
+    - problems in string@371
+    - exercise@377
+chapter 15: algorithm design techniques@379
+    - introduction@380
+    - brute force algorithm@381
+    - greedy algorithm@382
+    - divide-and-conquer, decrease-and-conquer@383
+    - dynamic programming@384
+    - reduction / transform-and-conquer@386
+    - backtracking@387
+    - branch-and-bound@388
+    - a*algorithm@389
+    - conclusion@390
+chapter 16: brute force algorithm@391
+    - introduction@392
+    - problems in brute force algorithm@393
+    - conclusion@398
+chapter 17: greedy algorithm@399
+    - introduction@400
+    - problems on greedy algorithm@401
+chapter 18: divide-and-conquer, decrease-and-conquer@408
+    - introduction@409
+    - general divide-and-conquer recurrence@411
+    - master theorem@412
+    - problems on divide-and-conquer algorithm@414
+chapter 19: dynamic programming@422
+    - introduction@423
+    - problems on dynamic programming algorithm@424
+chapter 20: backtracking@431
+    - introduction@432
+    - problems on backtracking algorithm@433
+chapter 21: complexity theory and np completeness@435
+    - introduction@436
+    - decision problem@437
+    - complexity classes@438
+    - class p problems@439
+    - class np problems@440
+    - class co-np@443
+    - np–hard:@444
+    - np–complete problems@445
+    - reduction@446
+    - end note@449
+chapter 22: interview strategy@450
+    - introduction@451
+    - resume@452
+    - nontechnical questions@453
+    - technical questions@454
+chapter 23: system design@455
+    - system design@456
+    - system design process@457
+    - scalability theory@458
+    - design simplified facebook@463
+    - design facebook friends suggestion function@467
+    - design a shortening service like bitly@469
+    - stock query server@471
+    - design a basic search engine database@473
+    - design a basic search engine caching@475
+    - duplicate integer in millions of documents@477
+    - zomato@478
+    - youtube@480
+    - design irctc@482
+    - alarm clock@483
+    - design for elevator of a building@484
+    - valet parking system@486
+    - oo design for a mcdonalds shop@487
+    - object oriented design for a restaurant@488
+    - object oriented design for a library system@490
+    - suggest a shortest path@492
+    - exercise@493
+appendix@495
+    - appendix a@496
